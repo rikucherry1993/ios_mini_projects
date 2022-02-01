@@ -106,15 +106,11 @@
 		318AE8EA278E510C009DA0EF /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				318AE91E278EB9E5009DA0EF /* ScrumView.swift */,
-				318AE91A278EAE76009DA0EF /* CardView.swift */,
-				318AE91C278EB2A2009DA0EF /* TrailingIconLabelStyle.swift */,
+				31A400B727A7AE1E00CC6E17 /* View */,
 				318AE915278EA13A009DA0EF /* Models */,
 				318AE8EB278E510C009DA0EF /* ScrumdingerApp.swift */,
-				318AE8ED278E510C009DA0EF /* MeetingView.swift */,
 				318AE8EF278E510E009DA0EF /* Assets.xcassets */,
 				318AE8F1278E510E009DA0EF /* Preview Content */,
-				31A98000278FFC3C00BF3A64 /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -151,6 +147,18 @@
 				318AE918278EAA5A009DA0EF /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		31A400B727A7AE1E00CC6E17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				318AE91E278EB9E5009DA0EF /* ScrumView.swift */,
+				318AE91A278EAE76009DA0EF /* CardView.swift */,
+				318AE91C278EB2A2009DA0EF /* TrailingIconLabelStyle.swift */,
+				318AE8ED278E510C009DA0EF /* MeetingView.swift */,
+				31A98000278FFC3C00BF3A64 /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
